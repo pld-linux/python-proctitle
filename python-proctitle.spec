@@ -1,8 +1,6 @@
-
 # todo:
 # - fix descriptions
 # - put proper cflags when building dynamic module
-
 %include	/usr/lib/rpm/macros.python
 %define module proctitle
 
@@ -40,7 +38,9 @@ rm -rf $RPM_BUILD_ROOT
 PYTHONPATH=$RPM_BUILD_ROOT%{py_sitedir}
 export PYTHONPATH
 
-python setup.py install --optimize=2 --root=$RPM_BUILD_ROOT
+python setup.py install \
+	--root=$RPM_BUILD_ROOT \
+	--optimize=2
 
 %clean
 rm -rf $RPM_BUILD_ROOT
