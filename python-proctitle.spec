@@ -28,7 +28,7 @@ Modu³ jêzyka Python do manipulacji argv[] (w tym tak¿e widocznej w np.
 w top nazwy procesu).
 
 %prep
-%setup -q
+%setup -q -n %{module}-%{version}
 
 %build
 python setup.py build
