@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 %define	module	proctitle
 
 Summary:	Python module to manipulate the raw 'argv[]' contents of a python process
