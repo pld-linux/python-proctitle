@@ -6,7 +6,7 @@
 %include	/usr/lib/rpm/macros.python
 %define module proctitle
 
-Summary:	Python module to manipulate the raw 'argv[]' contents of a python process.
+Summary:	Python module to manipulate the raw 'argv[]' contents of a python process
 Summary(pl):	Modu³ jêzyka Python do manipulacji argv[] (w tym nazwy procesu)
 Name:		python-%{module}
 Version:	0.0.1
