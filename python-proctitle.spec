@@ -3,12 +3,12 @@
 Summary:	Python module to manipulate the raw 'argv[]' contents of a python process
 Summary(pl):	Modu³ jêzyka Python do manipulacji argv[] (w tym nazwy procesu)
 Name:		python-%{module}
-Version:	0.0.1
+Version:	0.0.2
 Release:	4
 License:	GPL
 Group:		Libraries/Python
 Source0:	http://ftp.psychosis.com/python/%{module}-%{version}.tar.gz
-# Source0-md5:	c135a34e47fd066e5d1461d881c05f95
+# Source0-md5:	0d726d625b2be76458e0600fa79fed78
 BuildRequires:	python-devel >= 2.2.1
 BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python
