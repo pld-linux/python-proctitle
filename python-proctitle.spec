@@ -14,6 +14,7 @@ Release:	1
 License:	GPL
 Group:		Libraries/Python
 Source0:	http://ftp.psychosis.com/python/%{module}-%{version}.tar.gz
+# Source0-md5:	c135a34e47fd066e5d1461d881c05f95
 BuildRequires:	python-devel >= 2.2.1
 BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python
