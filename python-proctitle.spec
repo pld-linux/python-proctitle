@@ -1,6 +1,3 @@
-# todo:
-# - fix descriptions
-# - put proper cflags when building dynamic module
 %include	/usr/lib/rpm/macros.python
 %define module proctitle
 
@@ -8,7 +5,7 @@ Summary:	Python module to manipulate the raw 'argv[]' contents of a python proce
 Summary(pl):	Modu³ jêzyka Python do manipulacji argv[] (w tym nazwy procesu)
 Name:		python-%{module}
 Version:	0.0.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Libraries/Python
 Source0:	http://ftp.psychosis.com/python/%{module}-%{version}.tar.gz
@@ -47,5 +44,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%dir %{py_sitedir}/proctitle
 %{py_sitedir}/proctitle/*.py[oc]
 %attr(755,root,root) %{py_sitedir}/proctitle/*.so
