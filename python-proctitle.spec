@@ -1,7 +1,7 @@
 %define	module	proctitle
 
 Summary:	Python module to manipulate the raw 'argv[]' contents of a python process
-Summary(pl):	Modu³ jêzyka Python do manipulacji argv[] (w tym nazwy procesu)
+Summary(pl.UTF-8):   ModuÅ‚ jÄ™zyka Python do manipulacji argv[] (w tym nazwy procesu)
 Name:		python-%{module}
 Version:	0.0.2
 Release:	5
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Python module to manipulate the raw 'argv[]' contents of a python
 process. Allows to change process name during runtime.
 
-%description -l pl
-Modu³ jêzyka Python do manipulacji argv[] (w tym tak¿e widocznej w np.
+%description -l pl.UTF-8
+ModuÅ‚ jÄ™zyka Python do manipulacji argv[] (w tym takÅ¼e widocznej w np.
 w top nazwy procesu).
 
 %prep
