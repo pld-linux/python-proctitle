@@ -1,7 +1,7 @@
 %define	module	proctitle
 
 Summary:	Python module to manipulate the raw 'argv[]' contents of a python process
-Summary(pl.UTF-8):   Moduł języka Python do manipulacji argv[] (w tym nazwy procesu)
+Summary(pl.UTF-8):	Moduł języka Python do manipulacji argv[] (w tym nazwy procesu)
 Name:		python-%{module}
 Version:	0.0.2
 Release:	5
