@@ -4,7 +4,7 @@ Summary:	Python module to manipulate the raw 'argv[]' contents of a python proce
 Summary(pl.UTF-8):	Moduł języka Python do manipulacji argv[] (w tym nazwy procesu)
 Name:		python-%{module}
 Version:	0.0.2
-Release:	5
+Release:	6
 License:	GPL
 Group:		Libraries/Python
 Source0:	http://ftp.psychosis.com/python/%{module}-%{version}.tar.gz
