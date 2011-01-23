@@ -10,6 +10,8 @@ Group:		Libraries/Python
 Source0:	http://ftp.psychosis.com/python/%{module}-%{version}.tar.gz
 # Source0-md5:	0d726d625b2be76458e0600fa79fed78
 BuildRequires:	python-devel >= 2.2.1
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
